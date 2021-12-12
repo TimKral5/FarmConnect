@@ -1,0 +1,33 @@
+{
+    "check_tags_array": [
+        [
+            "style_css",
+            "src/dependencies/css/style.css",
+            "style"
+        ],
+        [
+            "bootstrap5_css",
+            "src/dependencies/css/bootstrap.css",
+            "style"
+        ],
+        [
+            "bootstrap5_js",
+            "src/dependencies/js/bootstrap.js",
+            "script"
+        ],
+        [
+            "jquery",
+            "src/dependencies/js/jquery.min.js",
+            "style"
+        ]
+    ],
+    "paths": {
+        "frame_template": "src/templates/frame.html",
+        "home_template": "src/home/home.html",
+        "app_template": "src/app/app.html"
+    },
+    "templates": {
+        "var_template": "<var />",
+        "app_title_template": "App - <t>"
+    }
+}
